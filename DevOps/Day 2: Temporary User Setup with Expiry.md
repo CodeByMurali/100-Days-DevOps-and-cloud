@@ -12,4 +12,14 @@ sudo chage -l javed
 
 ```
 
-Would you like me to show you how to automate this for multiple servers using **Boto3**?
+What chage Means
+
+chage = change age (of password)
+
+It controls:
+
+When a password expires
+
+When a user must change their password
+
+When an account expires or becomes inactive
