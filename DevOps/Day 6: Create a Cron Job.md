@@ -14,6 +14,16 @@ sudo crontab -e
 
 ```bash
 */5 * * * * echo hello > /tmp/cron_text
+
+
+# Explanation
+# ┌───────────── minute (0 - 59)
+# │ ┌─────────── hour (0 - 23)
+# │ │ ┌───────── day of month (1 - 31)
+# │ │ │ ┌─────── month (1 - 12)
+# │ │ │ │ ┌───── day of week (0 - 6) (0 is Sunday)
+# │ │ │ │ │
+# * * * * * /path/to/command
 ```
 
 ---
